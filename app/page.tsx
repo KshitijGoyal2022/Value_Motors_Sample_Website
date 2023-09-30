@@ -1,7 +1,14 @@
+// "use client"
 import { Hero,SearchBar,CustomFilter } from '@/components'
 import Image from 'next/image'
+// import TestButton from '@/components/TestButton'
 
 export default function Home() {
+
+  const handleSubmit =()=>{
+    
+  }
+
   return (
     <main className="overflow-hidden">
       <Hero />
@@ -20,7 +27,12 @@ export default function Home() {
           </div>
 
         </div>
+        {/* <div>
+          <form><TestButton onClick={handleSubmit}/></form>
+        </div> */}
       </div>
+
+      
       
     </main>
   )
